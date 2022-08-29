@@ -1,0 +1,220 @@
+.navbarlist{
+    background-color: white;
+    list-style: none;
+    display: flex;
+    
+    
+    
+}
+.navbar ul{
+    margin-left: 60px;
+}
+
+.navbar img{
+    width: 100px;
+    height: 50px;
+    
+}
+.navbarlist li button{
+    padding-left: 40px;
+    color: darkblue;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+}
+.navbarlist  li button:hover{
+    color: gray;
+}
+.navbar{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 120px;
+}
+
+.navloginsignup ul{
+
+    list-style: none;
+    display: flex;
+    margin-left: 20px;
+
+    
+}
+.navloginsignup ul li{
+    padding-left: 20px;
+}
+
+.signupbutton{
+    color: darkblue;
+    font-weight: bold;
+    border: none;
+    background-color:white;
+}
+.loginbutton{
+    color: white;
+    background-color: darkblue;
+    font-weight: bold;
+    width: 70px;
+    border: none;
+    height: 30px;
+    border-radius: 15px;
+}
+.firstrow{
+    display: flex;
+    
+}
+
+.first-row-image img{
+    right: 0%;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.first-row-image{
+    margin-left: auto;
+    margin-top: 100px;
+}
+
+.first-row-content h2{
+    font-size: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: -webkit-linear-gradient(#c6e49f,#2196f3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.first-row-content p{
+    font-weight: 300;
+    margin-top: -15px;
+}
+.first-row-content{
+    margin-left: 80px;
+    width: 80vh;
+    margin-top: 60px;
+}
+
+.first-row-content input{
+
+    width: 300px;
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 15px;
+}
+
+.first-row-content button{
+    margin-top: 30px;
+    height: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+.popular-projects{
+    display: flex;
+    margin-top: 50px;
+}
+.projects{
+    margin-left: 50px;
+}
+.popular-project-heading h2{
+    font-size: 7vh;
+    margin-left: 80px;
+    margin-top: 120px;
+    background: -webkit-linear-gradient(red,green);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.project img{
+    width: 100%;
+    border-radius: 25px;
+    height: 12em;
+}
+.project h3 , h4{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.project p{
+    text-align: center;
+    font-weight: 200;
+    font-size: 15px;
+}
+.third-row{
+    margin-top: 10em;
+    display: flex;
+}
+.third-row-image img{
+    margin-left: 10em;
+    height: 30em;
+    border-radius: 20px;
+}
+.third-row-content h2{
+    font-size: 10vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: -webkit-linear-gradient(#c6e49f,#2196f3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.third-row-content{
+    padding-left: 30px;
+    width: 100%;
+}
+.third-row-content button{
+    margin-left: 200px;
+    margin-top: 50px;
+    height: 65px;
+    width: 175px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: rgb(3, 3, 77);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+.third-row-content p{
+    padding-left: 50px;
+    width: 30em;
+    text-align: center;
+}
+.forth-row{
+    margin-top: 50px;
+    background: linear-gradient(to bottom , rgb(223, 119, 119),orange);
+    width: 50em;    
+    margin-left: 15em;
+    height: 15em;
+    border-radius: 25px;
+    margin-top: 30pxeeee;
+
+    
+}
+
+.forth-row h2 , p{
+    text-align: center;
+}
+
+.forth-row h2{
+    font-size: 35px;
+    padding-top:50px ;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.forth-row p{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.forth-row button{
+    margin-left: 25em;
+    margin-top: 30px;
+    width: 110px;
+    height: 45px;
+    border-radius: 15px;
+    background-color: rgb(3, 3, 77);
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

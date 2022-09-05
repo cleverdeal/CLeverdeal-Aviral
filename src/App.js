@@ -12,6 +12,12 @@ import Login from "./Pages/Login.jsx";
 import BrokerForm from "./Pages/BrokerForm.jsx";
 import OTPBox from "./Components/OTPBox.jsx";
 import LoginOtp from "./Pages/LoginOtp.jsx"
+// import Landingpagelvl2 from "./Pages/searchb/LandingPagelvl2.jsx";
+import LPage from "./Pages/LPage.jsx";
+import Search from "./Pages/search.jsx";
+import Lsearch from "./Search/Lsearch.jsx";
+import BrokerS from "./Pages/BrokerS.jsx";
+
 
 function App() {
   return (
@@ -19,7 +25,7 @@ function App() {
       <Router>
         <ScrollToTop>
           <Routes>
-            <Route path="/" element={<Landingpage />} />
+            <Route path="/" element={<LPage/>} />
             <Route path="/property" element={<Listing />} />
             {/* <Route path="/home" exact element={<Home />} />
             <Route path="/Login" exact element={<Login />} />
@@ -28,9 +34,10 @@ function App() {
             <Route path="/otplog" exact element={<Otplog />} /> */}
             <Route path="/signIn" element={<SignL />} />
             <Route path="/Login" element={<Login />} />
-            <Route path="/Broker" element={<BrokerForm />} />
+            <Route path="/Broker" element={<BrokerS />} />
             <Route path="/Otp" element={<OTPBox />} />
             <Route path="/LoginOtp" element={<LoginOtp />} /> 
+            <Route path="/search" element={<Lsearch />} /> 
           </Routes>
         </ScrollToTop>
       </Router>

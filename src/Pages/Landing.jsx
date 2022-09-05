@@ -84,7 +84,7 @@ const Landingpage = () => {
         <p>One stop  destination for all types of properties. Aims at genuine properties according to customer requirements.One stop destination for  all types of properties</p>
         
         <input type="search"  placeholder="Search for properties"></input>
-        <button>Search</button>
+        <Link to='/search'>Search</Link>
         
         
         
@@ -111,7 +111,7 @@ const Landingpage = () => {
 
         <div className="projects">
 
-          <div className="project">
+          <div className="project1">
           <img src={item["imageurl"]} alt=""></img>
           <h3>{item["name"]}</h3>
           <h4>{item["price"]}</h4>
@@ -132,7 +132,7 @@ const Landingpage = () => {
 
  
         
-        <div className="third-row">
+        <div className="flex">
 
           <div className="third-row-image">
             <img src="https://3d-rendering-walkthrough-dubai.weebly.com/uploads/2/5/8/6/25863872/3d-architectural-rendering-services-apartment-modern_orig.jpg"></img>
@@ -159,5 +159,4 @@ const Landingpage = () => {
     </div>
   );
 };
-
 export default Landingpage;
